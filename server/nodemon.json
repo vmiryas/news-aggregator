@@ -1,0 +1,7 @@
+{
+    "events": { "crash": "exit " },
+    "watch": ["src", "../../packages"],
+    "ext": "ts",
+    "ignore": ["src/**/*.spec.ts"],
+    "exec": "ts-node -r tsconfig-paths/register ./src/index.ts"
+}

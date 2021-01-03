@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "sourceMap": true,
+      "target": "es2018",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "alwaysStrict": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true,
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
